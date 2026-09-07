@@ -1,22 +1,30 @@
 CHINESE SELF-STUDY TUTOR - QUICK START
 
-Invoke explicitly:
-$chinese-self-study-tutor <your request>
+Installation scope: user
 
-Choose a flexible depth:
-quickest | simple | normal | detailed | full
+1. Ask naturally, or invoke the Skill explicitly:
+   $chinese-self-study-tutor <your request>
 
-Tone-marked pinyin is included at every depth unless you explicitly ask for no pinyin. The tutor starts from a conservative estimate of your Chinese level.
+2. Add a response depth when useful:
+   quickest — direct answer or correction with pinyin
+   simple   — answer plus the key reason or example
+   normal   — compact lesson with breakdown, notes, and practice
+   detailed — deeper explanation and targeted practice
+   full     — reusable study unit with broader practice
 
-Try:
-$chinese-self-study-tutor normal: Correct this diary and explain the key mistakes.
-$chinese-self-study-tutor detailed: Explain 了 with pinyin and examples.
-$chinese-self-study-tutor full: Build a lesson, quiz, and answer key from 东西南北.
-$chinese-self-study-tutor Practise a café conversation with me by voice.
-$chinese-self-study-tutor Explain 烛 through useful words and phrases before explaining the character itself.
+3. Try one of these prompts:
+   $chinese-self-study-tutor normal: Correct this diary entry and explain the key mistakes.
+   $chinese-self-study-tutor detailed: Explain 了 with pinyin and examples.
+   $chinese-self-study-tutor full: Build a lesson, quiz, and answer key from 东西南北.
+   $chinese-self-study-tutor Practise ordering coffee with me by voice.
+   $chinese-self-study-tutor Explain 烛 through useful words before explaining the character.
 
-English explanations are the default. Ask for German at any time.
-Normal, detailed, and full work is archived as HTML under ./archive/.
-Original input files stay unchanged.
-At normal depth, correction includes Chinese, pinyin, a Chinese-order chunk breakdown, literal and natural translations, focused notes, and practice.
-For an unfamiliar Hanzi, the tutor normally starts with a useful word network and returns to the single character afterward.
+Defaults:
+- Explanations are in English; ask for German when needed.
+- Taught Chinese includes tone-marked pinyin unless you ask to omit it.
+- Work at normal and above is archived as one HTML file under ./archive/.
+- Source files are not changed.
+
+Full documentation: README.md
+Chinese: docs/i18n/README.zh-CN.md
+German: docs/i18n/README.de.md

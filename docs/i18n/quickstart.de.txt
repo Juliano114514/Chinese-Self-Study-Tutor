@@ -1,22 +1,30 @@
 CHINESE SELF-STUDY TUTOR - SCHNELLSTART
 
-Ausdrücklich aufrufen:
-$chinese-self-study-tutor <deine Aufgabe>
+Installationsbereich: user
 
-Flexible Tiefe wählen:
-quickest | simple | normal | detailed | full
+1. Formuliere deine Aufgabe frei oder rufe das Skill ausdrücklich auf:
+   $chinese-self-study-tutor <deine Aufgabe>
 
-Pinyin mit Tonzeichen wird auf jeder Stufe mitgeliefert, sofern du es nicht ausdrücklich abwählst. Der Tutor schätzt dein aktuelles Chinesisch zunächst bewusst vorsichtig ein.
+2. Ergänze bei Bedarf eine Antworttiefe:
+   quickest — direkte Antwort oder Korrektur mit Pinyin
+   simple   — Antwort mit wichtigster Begründung oder Beispiel
+   normal   — kompakte Lerneinheit mit Zerlegung, Hinweisen und Übung
+   detailed — ausführlichere Erklärung und gezielte Übungen
+   full     — wiederverwendbare Lerneinheit mit umfangreicheren Übungen
 
-Beispiele:
-$chinese-self-study-tutor normal: Korrigiere dieses Tagebuch und erkläre die wichtigsten Fehler.
-$chinese-self-study-tutor detailed: Erkläre 了 auf Deutsch mit Pinyin und Beispielen.
-$chinese-self-study-tutor full: Erstelle aus 东西南北 eine Lektion, einen Test und Lösungen.
-$chinese-self-study-tutor Übe mit mir per Sprachfunktion ein Gespräch im Café.
-$chinese-self-study-tutor Erkläre 烛 zuerst mit nützlichen Wörtern und erst danach als einzelnes Zeichen.
+3. Probiere eine dieser Aufgaben:
+   $chinese-self-study-tutor normal: Korrigiere diesen Tagebucheintrag und erkläre die wichtigsten Fehler.
+   $chinese-self-study-tutor detailed: Erkläre 了 mit Pinyin und Beispielen.
+   $chinese-self-study-tutor full: Erstelle aus 东西南北 eine Lektion, einen Test und Lösungen.
+   $chinese-self-study-tutor Übe mit mir per Sprachfunktion eine Bestellung im Café.
+   $chinese-self-study-tutor Erkläre 烛 zuerst mit nützlichen Wörtern und danach als einzelnes Zeichen.
 
-Englisch ist die Standardsprache; Deutsch kann jederzeit verlangt werden.
-Arbeit ab normal wird als HTML unter ./archive/ gespeichert.
-Die ursprünglichen Eingabedateien bleiben unverändert.
-Korrekturen auf normal enthalten Chinesisch, Pinyin, eine Zerlegung in chinesischer Wortfolge, wörtliche und natürliche Übersetzungen, gezielte Hinweise und eine Übung.
-Bei einem unbekannten Hanzi beginnt der Tutor normalerweise mit einem nützlichen Wortnetz und kehrt danach zum einzelnen Zeichen zurück.
+Standardeinstellungen:
+- Erklärungen sind auf Englisch; Deutsch kann jederzeit verlangt werden.
+- Pinyin mit Tonzeichen wird mitgeliefert, sofern du nicht darum bittest, es wegzulassen.
+- Arbeit ab normal wird als eine HTML-Datei unter ./archive/ gespeichert.
+- Eingabedateien werden nicht verändert.
+
+Vollständige Dokumentation: README.de.md
+Englisch: ../../README.md
+Chinesisch: README.zh-CN.md

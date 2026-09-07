@@ -1,22 +1,30 @@
 CHINESE SELF-STUDY TUTOR - 快速开始
 
-显式调用：
-$chinese-self-study-tutor <你的请求>
+安装范围：user
 
-选择灵活的深度档位：
-quickest | simple | normal | detailed | full
+1. 直接描述需求，或显式调用技能：
+   $chinese-self-study-tutor <你的请求>
 
-除非明确要求不要拼音，否则所有档位都会提供带声调拼音。老师会默认悲观估计你的当前中文水平。
+2. 按需指定反馈深度：
+   quickest — 直接给出答案或订正，并附拼音
+   simple   — 补充关键原因或例句
+   normal   — 提供拆解、说明和练习的紧凑小课
+   detailed — 深入讲解并提供针对性练习
+   full     — 形成包含更完整练习的可复用学习单元
 
-示例：
-$chinese-self-study-tutor normal：批改这篇日记并讲解主要错误。
-$chinese-self-study-tutor detailed：用德语和例句讲解“了”。
-$chinese-self-study-tutor full：用东西南北制作课程、测试和答案。
-$chinese-self-study-tutor 通过语音和我练习咖啡馆对话。
-$chinese-self-study-tutor 先用一组常用词讲解“烛”，再解释单个汉字。
+3. 可以直接尝试：
+   $chinese-self-study-tutor normal：批改这篇日记并讲解主要错误。
+   $chinese-self-study-tutor detailed：用拼音和例句讲解“了”。
+   $chinese-self-study-tutor full：用东西南北制作课程、测试和答案。
+   $chinese-self-study-tutor 通过语音和我练习在咖啡馆点单。
+   $chinese-self-study-tutor 先用常用词讲解“烛”，再解释这个汉字。
 
-讲解默认使用英语，也可以随时要求德语。
-normal、detailed、full 会以 HTML 自动归档到 ./archive/。
-原始输入文件不会被改动。
-normal 档位的批改包括中文、拼音、中文语序拆解、直译、自然翻译、重点讲解和练习。
-讲解不熟悉的汉字时，老师通常先用一组有用的词，再回到单个汉字。
+默认设置：
+- 讲解使用英语，也可以要求使用德语。
+- 除非要求省略，否则教学中的中文会附带声调的拼音。
+- normal 及以上内容会以一个 HTML 文件归档到 ./archive/。
+- 原始输入文件不会被修改。
+
+完整文档：README.zh-CN.md
+英文文档：../../README.md
+德文文档：README.de.md

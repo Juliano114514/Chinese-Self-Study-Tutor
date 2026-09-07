@@ -38,7 +38,7 @@ This is a teaching preference, not a quota or a ban on direct definitions. Adapt
 
 At `normal`, `detailed`, or `full`, archive the work automatically as HTML under `archive/` in the active workspace. At `quickest` or `simple`, do not archive unless the user explicitly asks to save it; if saving requires a fuller artifact, treat it as `normal` while keeping the answer concise.
 
-Keep source files unchanged. When there is meaningful learner input, archive a normalized HTML copy beside the related teaching artifact. Never overwrite an existing archive. Do not save voice audio or a full transcript unless the user explicitly asks.
+Keep source files unchanged. When there is meaningful learner input, include a normalized copy of it in the same HTML artifact as the correction or teaching result. Never create a separate source-copy artifact or overwrite an existing archive. Do not save voice audio or a full transcript unless the user explicitly asks.
 
 Read [references/archive-html.md](references/archive-html.md) before creating or updating archive artifacts. That reference defines categories, filenames, collision handling, and the minimum self-contained HTML contract.
 

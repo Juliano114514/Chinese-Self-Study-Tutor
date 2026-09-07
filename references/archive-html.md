@@ -6,20 +6,19 @@ Read this reference before writing an archive artifact.
 
 Use `archive/` under the active workspace, not inside the installed Skill directory. Create only the category directories needed for the current task.
 
-- `archive/homework/` - meaningful learner input, `[corrected]`, and `[model-answer]`
+- `archive/homework/` - meaningful learner input with its `[corrected]` or `[model-answer]` result in one HTML artifact
 - `archive/tests/` - `[quiz]` and `[answer-key]`
 - `archive/knowledge/` - `[lesson]`
 - `archive/speaking/` - `[speaking-review]`
 - `archive/reviews/` - `[progress-review]`
 
-Keep related input and correction in `homework`. Put a quiz generated from homework in `tests`; include the source title in its metadata so the relationship stays clear.
+Keep learner input and its correction together in one `homework` artifact. Put a quiz generated from homework in `tests`; include the source title in its metadata so the relationship stays clear.
 
 ## Filenames
 
 Use the active workspace's local calendar date in `YYYYMMDD` form.
 
-- Normalized source: `YYYYMMDD Title.html`
-- Result: `YYYYMMDD [status] Title.html`
+- Artifact: `YYYYMMDD [status] Title.html`
 
 Supported status words are descriptive defaults, not an exhaustive list: `corrected`, `model-answer`, `quiz`, `answer-key`, `lesson`, `speaking-review`, and `progress-review`.
 
@@ -31,15 +30,15 @@ Choose the title in this order:
 
 Remove Windows-invalid filename characters (`< > : " / \\ | ? *`), control characters, and trailing spaces or periods. Keep meaningful Unicode, including Hanzi. Do not repeat an existing leading date from the source name; the archive date is today's date.
 
-Never overwrite. If a target exists, append ` (2)`, then ` (3)`, and so on before `.html`. Apply collision handling independently to each artifact.
+Never overwrite. If a target exists, append ` (2)`, then ` (3)`, and so on before `.html`.
 
 ## What to archive
 
 - At `normal`, `detailed`, or `full`, archive automatically.
 - At `quickest` or `simple`, archive only after an explicit save request.
 - If the user supplies a file or asks for a file output without naming a depth, use at least `normal`.
-- Preserve every source file unchanged. The normalized source HTML is an archival representation, not a replacement or move.
-- For pasted homework or another meaningful learner text, create a source HTML and the related result HTML.
+- Preserve every source file unchanged. The original text in the archive is an archival representation, not a replacement or move.
+- For pasted homework or another meaningful learner text, create one result HTML that includes the original text and the correction or teaching content.
 - For a pure knowledge request, archive the `[lesson]` result and include the original question in its metadata; a separate source file is unnecessary.
 - For speaking, archive a concise `[speaking-review]`; omit audio and full transcript unless explicitly requested.
 
@@ -51,7 +50,7 @@ Use semantic headings and readable vertical sections rather than forcing tables.
 
 - title;
 - local date, depth, category, explanation language, and source filename or related artifact when relevant;
-- learner input or question;
+- learner input or question, when present;
 - the teaching content appropriate to the task;
 - practice or next step when useful.
 
