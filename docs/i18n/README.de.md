@@ -28,6 +28,10 @@ Ich / diese zwei Tage / alle / im Homeoffice arbeiten
 Natürliches Deutsch: Ich arbeite seit zwei Tagen von zu Hause aus.
 ```
 
+## Hanzi und Wortschatz
+
+Bei einem unbekannten Hanzi beginnt der Tutor normalerweise mit einem nützlichen Wortnetz statt mit einer isolierten Wörterbuchdefinition. **烛** (*zhú*) kann zum Beispiel über **蜡烛** (*làzhú*, Wachskerze), **烛火** (*zhúhuǒ*, Kerzenflamme), **烛光** (*zhúguāng*, Kerzenlicht) und **烛台** (*zhútái*, Kerzenständer) eingeführt werden. Eine zweite, deutlich als kulturell markierte Richtung wie **烛龙** (*Zhúlóng*, Torch Dragon) kann bei Bedarf hinzukommen. Das ist eine flexible Referenz, keine feste Wortzahl und kein Ersatz für eine direkte Erklärung, wenn sie gebraucht wird.
+
 ## Archiv
 
 Umfangreichere Arbeit wird als eigenständiges HTML im Ordner `archive` des aktiven Arbeitsbereichs gespeichert und in `homework`, `tests`, `knowledge`, `speaking` und `reviews` eingeordnet. Quelldateien werden nie verändert. Dateinamen folgen `YYYYMMDD Titel.html` und `YYYYMMDD [Status] Titel.html`; bei Namenskonflikten wird eine Nummer angehängt, statt Dateien zu überschreiben.

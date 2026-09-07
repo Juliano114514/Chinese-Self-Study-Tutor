@@ -28,6 +28,10 @@ I / these two days / all / work from home
 Natural English: I have been working from home these past two days.
 ```
 
+## 汉字与词汇
+
+讲解不熟悉的汉字时，老师通常先用一组可用的词来建立语境，而不是只给孤立的字典释义。例如，**烛** (*zhú*) 可以先从 **蜡烛** (*làzhú*，蜡烛 / wax candle)、**烛火** (*zhúhuǒ*，烛焰 / candle flame)、**烛光** (*zhúguāng*，烛光 / candlelight) 和 **烛台** (*zhútái*，烛台 / candlestick) 开始；有帮助时，再明确标注文化方向，例如 **烛龙** (*Zhúlóng*，Torch Dragon，文学或神话名称)。这是灵活参考，不是固定词数要求，也不取代用户需要时的直接释义。
+
 ## 归档
 
 达到归档深度的内容会以自包含 HTML 保存到当前工作区的 `archive` 目录，并分入 `homework`、`tests`、`knowledge`、`speaking` 和 `reviews`。原始输入文件不会被改动。文件名采用 `YYYYMMDD 标题.html` 和 `YYYYMMDD [状态] 标题.html`；同名时增加数字后缀，不覆盖旧文件。

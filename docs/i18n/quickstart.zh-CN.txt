@@ -13,8 +13,10 @@ $chinese-self-study-tutor normal：批改这篇日记并讲解主要错误。
 $chinese-self-study-tutor detailed：用德语和例句讲解“了”。
 $chinese-self-study-tutor full：用东西南北制作课程、测试和答案。
 $chinese-self-study-tutor 通过语音和我练习咖啡馆对话。
+$chinese-self-study-tutor 先用一组常用词讲解“烛”，再解释单个汉字。
 
 讲解默认使用英语，也可以随时要求德语。
 normal、detailed、full 会以 HTML 自动归档到 ./archive/。
 原始输入文件不会被改动。
 normal 档位的批改包括中文、拼音、中文语序拆解、直译、自然翻译、重点讲解和练习。
+讲解不熟悉的汉字时，老师通常先用一组有用的词，再回到单个汉字。

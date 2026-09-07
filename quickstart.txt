@@ -13,8 +13,10 @@ $chinese-self-study-tutor normal: Correct this diary and explain the key mistake
 $chinese-self-study-tutor detailed: Explain 了 with pinyin and examples.
 $chinese-self-study-tutor full: Build a lesson, quiz, and answer key from 东西南北.
 $chinese-self-study-tutor Practise a café conversation with me by voice.
+$chinese-self-study-tutor Explain 烛 through useful words and phrases before explaining the character itself.
 
 English explanations are the default. Ask for German at any time.
 Normal, detailed, and full work is archived as HTML under ./archive/.
 Original input files stay unchanged.
 At normal depth, correction includes Chinese, pinyin, a Chinese-order chunk breakdown, literal and natural translations, focused notes, and practice.
+For an unfamiliar Hanzi, the tutor normally starts with a useful word network and returns to the single character afterward.

@@ -55,7 +55,21 @@ Contrast easily confused forms through meaning and situation, not definitions al
 
 ## Hanzi and vocabulary building
 
-For each requested Hanzi, prefer common, useful compounds and chunks a beginner may encounter. Aim for roughly 5-10 or more useful items per character when the language supports it; do not pad the list with rare words just to reach a count.
+When a learner asks about a single Hanzi, use words and phrases as the main route into the character whenever that is more useful than a standalone dictionary gloss. This is a soft teaching preference: adapt it to the question, and give a direct definition first when the learner specifically needs one.
+
+Start with a familiar anchor word, expand to several common and useful collocations, then briefly draw out the shared character-level idea. If helpful, add a clearly labelled second direction such as a cultural, literary, contrasting, or more specialised word. Keep everyday vocabulary separate from rare or name-like items so a learner does not mistake the latter for basic daily language.
+
+For example, introduce **烛** (*zhú*) through a word network rather than only “candle”:
+
+- **蜡烛** (*làzhú*) — wax candle; a familiar anchor word.
+- **烛火** (*zhúhuǒ*) — candle flame.
+- **烛光** (*zhúguāng*) — candlelight.
+- **烛台** (*zhútái*) — candlestick / candle holder.
+- **烛龙** (*Zhúlóng*) — Torch Dragon; a literary or mythological name, not everyday vocabulary.
+
+The first four words show the everyday candle-and-light network. The last word offers a second cultural direction and should be labelled as such. Only after the network is visible, state the compact character-level cue: **烛** (*zhú*) commonly carries the image of a candle or torch in these words.
+
+Use several terms when they make the network clearer, not to meet a fixed count. Do not pad with rare words, and do not infer one universal English equivalent from a character that has different senses in different compounds. Read [hanzi-teaching.md](hanzi-teaching.md) for the fuller reference and worked patterns.
 
 A useful entry may contain:
 
@@ -65,7 +79,7 @@ A useful entry may contain:
 - exact everyday meaning and relevant register;
 - one short beginner-readable example with translation.
 
-Group antonyms, semantic families, or reusable patterns when this makes recall easier. At `normal` or deeper, add recognition, matching, multiple-choice, cloze, or short-production practice and explain the answers after the learner attempts them.
+Group semantic families, contrasting uses, or reusable patterns when this makes recall easier. At `normal` or deeper, add recognition, matching, multiple-choice, cloze, or short-production practice and explain the answers after the learner attempts them.
 
 ## Quizzes and answer handling
 

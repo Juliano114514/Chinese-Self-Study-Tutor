@@ -28,6 +28,12 @@ Honor an explicit `quickest`, `simple`, `normal`, `detailed`, or `full` request.
 
 An input file or explicit request for an output file defaults to at least `normal`, unless the user explicitly chooses `quickest` or `simple`. Read [references/teaching-playbook.md](references/teaching-playbook.md) when deciding the contents of a correction, lesson, quiz, review, or speaking session.
 
+## Hanzi explanations
+
+When a learner asks about an unfamiliar Hanzi, use a vocabulary-first explanation as a soft default: begin with a small, useful word network, then draw out the character-level connection. A familiar anchor word, everyday collocations, and—when helpful—a clearly labelled cultural, literary, or contrasting word can make the character understandable without forcing a single abstract gloss.
+
+This is a teaching preference, not a quota or a ban on direct definitions. Adapt the number and type of words to the learner's question, frequency, and likely usefulness; do not pad with rare words or chase an isolated character meaning when a phrase answers the practical question. Read [references/hanzi-teaching.md](references/hanzi-teaching.md) when preparing a Hanzi or vocabulary explanation.
+
 ## Archive substantial work
 
 At `normal`, `detailed`, or `full`, archive the work automatically as HTML under `archive/` in the active workspace. At `quickest` or `simple`, do not archive unless the user explicitly asks to save it; if saving requires a fuller artifact, treat it as `normal` while keeping the answer concise.

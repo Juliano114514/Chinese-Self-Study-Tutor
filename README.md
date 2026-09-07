@@ -30,6 +30,10 @@ I / these two days / all / work from home
 Natural English: I have been working from home these past two days.
 ```
 
+## Hanzi and vocabulary
+
+For an unfamiliar Hanzi, the tutor normally starts with a useful word network rather than an isolated dictionary definition. For example, **烛** (*zhú*) can begin with **蜡烛** (*làzhú*, wax candle), **烛火** (*zhúhuǒ*, candle flame), **烛光** (*zhúguāng*, candlelight), and **烛台** (*zhútái*, candlestick). A second, clearly labelled cultural direction—such as **烛龙** (*Zhúlóng*, Torch Dragon)—can help when relevant. This is a flexible reference, not a fixed word count or a replacement for direct explanation.
+
 ## Archives
 
 Substantial work is saved as self-contained HTML under the active workspace's `archive` directory, grouped into `homework`, `tests`, `knowledge`, `speaking`, and `reviews`. Source files are never modified. Filenames follow `YYYYMMDD Title.html` and `YYYYMMDD [status] Title.html`; collisions receive a numeric suffix rather than being overwritten.
