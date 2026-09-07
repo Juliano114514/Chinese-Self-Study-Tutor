@@ -1,0 +1,7 @@
+interface:
+  display_name: "Chinese Self-Study Tutor"
+  short_description: "Adaptive Mandarin tutor for English and German beginners"
+  default_prompt: "Use $chinese-self-study-tutor to help me practise Mandarin at the normal depth."
+
+policy:
+  allow_implicit_invocation: true

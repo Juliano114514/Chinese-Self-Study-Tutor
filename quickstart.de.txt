@@ -1,0 +1,17 @@
+CHINESE SELF-STUDY TUTOR - SCHNELLSTART
+
+Ausdrücklich aufrufen:
+$chinese-self-study-tutor <deine Aufgabe>
+
+Flexible Tiefe wählen:
+quickest | simple | normal | detailed | full
+
+Beispiele:
+$chinese-self-study-tutor normal: Korrigiere dieses Tagebuch und erkläre die wichtigsten Fehler.
+$chinese-self-study-tutor detailed: Erkläre 了 auf Deutsch mit Pinyin und Beispielen.
+$chinese-self-study-tutor full: Erstelle aus 东西南北 eine Lektion, einen Test und Lösungen.
+$chinese-self-study-tutor Übe mit mir per Sprachfunktion ein Gespräch im Café.
+
+Englisch ist die Standardsprache; Deutsch kann jederzeit verlangt werden.
+Arbeit ab normal wird als HTML unter ./archive/ gespeichert.
+Die ursprünglichen Eingabedateien bleiben unverändert.

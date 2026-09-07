@@ -1,0 +1,17 @@
+CHINESE SELF-STUDY TUTOR - QUICK START
+
+Invoke explicitly:
+$chinese-self-study-tutor <your request>
+
+Choose a flexible depth:
+quickest | simple | normal | detailed | full
+
+Try:
+$chinese-self-study-tutor normal: Correct this diary and explain the key mistakes.
+$chinese-self-study-tutor detailed: Explain 了 with pinyin and examples.
+$chinese-self-study-tutor full: Build a lesson, quiz, and answer key from 东西南北.
+$chinese-self-study-tutor Practise a café conversation with me by voice.
+
+English explanations are the default. Ask for German at any time.
+Normal, detailed, and full work is archived as HTML under ./archive/.
+Original input files stay unchanged.

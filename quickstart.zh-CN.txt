@@ -1,0 +1,17 @@
+CHINESE SELF-STUDY TUTOR - 快速开始
+
+显式调用：
+$chinese-self-study-tutor <你的请求>
+
+选择灵活的深度档位：
+quickest | simple | normal | detailed | full
+
+示例：
+$chinese-self-study-tutor normal：批改这篇日记并讲解主要错误。
+$chinese-self-study-tutor detailed：用德语和例句讲解“了”。
+$chinese-self-study-tutor full：用东西南北制作课程、测试和答案。
+$chinese-self-study-tutor 通过语音和我练习咖啡馆对话。
+
+讲解默认使用英语，也可以随时要求德语。
+normal、detailed、full 会以 HTML 自动归档到 ./archive/。
+原始输入文件不会被改动。
