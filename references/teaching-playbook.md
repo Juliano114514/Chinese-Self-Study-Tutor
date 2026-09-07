@@ -6,13 +6,28 @@ Use this reference to choose useful teaching components. The learner's request a
 
 Choose depth from the amount of material, the learner's goal, and whether the result should remain useful later.
 
-- **quickest** - Resolve one small question or repair one phrase. Give only the answer needed now.
-- **simple** - Add the most important reason, contrast, or example. Avoid turning a small question into a lesson handout.
-- **normal** - Give a complete, approachable teaching response and a short chance to practise. This is the normal floor for input files and requested file outputs.
+- **quickest** - Resolve one small question or repair one phrase. Give only the answer needed now, but include tone-marked pinyin for the Chinese taught.
+- **simple** - Give the answer with tone-marked pinyin and add the most important reason, contrast, or example. Avoid turning a small question into a lesson handout.
+- **normal** - Give a detailed, approachable teaching response. For composition or correction, cover every meaningful sentence with corrected Chinese, tone-marked pinyin, a Chinese-order chunk breakdown, a literal gloss, a natural translation, focused notes, and a short chance to practise. This is the normal floor for input files and requested file outputs.
 - **detailed** - Explain form, meaning, Chinese word order, natural alternatives, and recurring patterns. Include targeted practice.
 - **full** - Build a self-study unit: diagnosis, teaching, model material, practice, answer handling, review priorities, and a realistic next step.
 
-Do not mechanically include every component at a given depth. For example, pinyin may be unnecessary when explaining punctuation, and a structural gloss may distract from a one-word vocabulary question.
+All depths use tone-marked pinyin for the Chinese being taught unless the learner explicitly asks for no pinyin or another transcription system. Keep the lesson appropriate for the lower of the plausible learner levels unless the learner explicitly requests greater difficulty or has repeatedly demonstrated it. Beyond the required `normal` components, do not mechanically add material that does not help the request.
+
+## Pinyin and structural breakdown
+
+Keep pinyin aligned with the exact Chinese version being taught. Use dictionary tones rather than respelling ordinary tone sandhi unless pronunciation itself is the lesson.
+
+At `normal` or above, show a Chinese-order breakdown for every meaningful corrected sentence or short sentence group. Keep the chunks semantically useful and follow them with a deliberately literal gloss and then a natural translation. For example:
+
+```text
+我 / 这两天 / 都 / 居家办公
+Wǒ / zhè liǎng tiān / dōu / jūjiā bàngōng
+I / these two days / all / work from home
+Natural English: I have been working from home these past two days.
+```
+
+Do not force English grammar into the literal line: its purpose is to reveal Chinese word order. For long homework, do not skip sentences from the breakdown merely to shorten the response. Closely repeated sentences may share one explanation, but each correction and its pinyin must remain visible.
 
 ## Composition and homework correction
 
@@ -22,19 +37,19 @@ Possible components, from lighter to deeper:
 
 1. **Corrected wording** - Make the smallest change that repairs grammar, vocabulary, characters, or clarity.
 2. **Natural version** - When useful, give a more idiomatic or polished version separately. Label it as an alternative, not the only correct answer.
-3. **Pinyin** - Use tone marks and align it with the version being taught. Do not respell ordinary tone sandhi unless pronunciation itself is the lesson; explain it separately when relevant.
-4. **Structural gloss** - Break the Chinese into meaningful chunks and follow Chinese order, even if the learner-language gloss sounds unnatural.
+3. **Pinyin** - Required for the Chinese being taught at every depth unless the learner explicitly opts out.
+4. **Structural gloss** - Required at `normal` or above. Break every meaningful corrected sentence into useful chunks and follow Chinese order, even if the learner-language gloss sounds unnatural.
 5. **Natural translation** - Translate the intended meaning into clear English or German.
 6. **Teaching notes** - Separate definite errors, clarity problems, naturalness, everyday frequency, rhythm, and register. Explain why a form fits this particular context.
 7. **Transfer note** - Identify possible English/German transfer only when there is a plausible word-for-word or syntax pattern. Do not label typos or all short sentences as foreign influence.
 8. **Model text** - At deeper levels or when requested, provide a new example that uses the same target structures without erasing the learner's voice.
 9. **Practice** - Test the actual mistakes or target patterns, not unrelated grammar.
 
-At `normal`, usually include the original, corrected text, relevant pinyin or translation, focused notes, and a short practice item. At `detailed`, add a minimal-versus-natural comparison and structural explanation where useful. At `full`, add a model text, broader exercise set, problem summary, and follow-up plan.
+At `normal`, include the original, corrected text, aligned tone-marked pinyin, Chinese-order chunk breakdown with literal gloss, natural translation, focused notes, and a short practice item. At `detailed`, add a minimal-versus-natural comparison, deeper usage contrasts, and more targeted testing. At `full`, add a model text, broader exercise set, problem summary, and follow-up plan.
 
 ## Knowledge-point explanations
 
-Start from a concrete Chinese example, then explain the pattern in the learner's preferred language. Include tone-marked pinyin, a literal cue, and a natural translation when they improve understanding.
+Start from a concrete Chinese example with tone-marked pinyin, then explain the pattern in the learner's preferred language. At `normal` or above, include a Chinese-order breakdown, literal cue, and natural translation.
 
 Contrast easily confused forms through meaning and situation, not definitions alone. Show what is common in conversation, what is neutral in writing, and what may sound formal, regional, old-fashioned, or unusual. End `normal` or deeper explanations with a small check for understanding.
 
@@ -59,12 +74,15 @@ Build quizzes from material already taught or supplied. Mix recognition and prod
 - In conversation, present questions without the answer key. After the learner answers, mark each response, explain the decisive point, and offer a retry where useful.
 - For a one-shot self-study package, create a separate `[quiz]` artifact and `[answer-key]` artifact so answers are easy to hide.
 - A score is optional. Prefer a short diagnosis such as "secure", "needs one more pass", or "confused with X" over false precision.
+- Add tone-marked pinyin to Chinese prompts, options, corrections, and answer explanations unless the learner explicitly opts out.
 
 ## Voice and speaking practice
 
 Choose a practical scenario such as introductions, ordering food, directions, travel, daily routines, or talking with a friend. Establish the goal briefly, then conduct one Mandarin turn at a time. Use English or German scaffolding only as needed.
 
 Do not interrupt every sentence. During the exchange, prioritize communication and repair only errors that block meaning or reinforce the current target. Afterward, summarize a small number of high-value corrections, useful replacement phrases, vocabulary, and the next speaking target.
+
+Add tone-marked pinyin to Chinese text shown during speaking practice and in the review unless the learner explicitly opts out.
 
 Only evaluate sounds, tones, fluency, or rhythm that were actually available in the audio. If audio evidence is missing or unclear, say so and assess wording instead. At archive-eligible depth, save a concise speaking review, not raw audio or a full transcript, unless the user explicitly requests those materials.
 

@@ -17,8 +17,19 @@
 
 可以指定 `quickest`、`simple`、`normal`、`detailed` 或 `full`，也可以让老师自行判断。这些档位是灵活的深度建议，不是固定模板。`normal` 及以上会自动归档；存在输入文件或明确要求输出文件时，默认至少使用 `normal`。
 
+除非明确要求不要拼音，否则所有档位都会为教学中的中文提供带声调拼音。老师会悲观估计学习者当前的中文水平：存在多个可能档位时，默认按较低档位讲解，只有在反复出现明确证据或用户主动要求时才提高难度。
+
+`normal` 档位的作文和批改会逐句给出订正后的中文、对应拼音、中文语序拆解、直译、自然翻译、重点讲解和简短练习。例如：
+
+```text
+我 / 这两天 / 都 / 居家办公
+Wǒ / zhè liǎng tiān / dōu / jūjiā bàngōng
+I / these two days / all / work from home
+Natural English: I have been working from home these past two days.
+```
+
 ## 归档
 
 达到归档深度的内容会以自包含 HTML 保存到当前工作区的 `archive` 目录，并分入 `homework`、`tests`、`knowledge`、`speaking` 和 `reviews`。原始输入文件不会被改动。文件名采用 `YYYYMMDD 标题.html` 和 `YYYYMMDD [状态] 标题.html`；同名时增加数字后缀，不覆盖旧文件。
 
-讲解语言默认是英语；用户要求或明显偏好德语时改用德语。中文默认采用普通话、简体字和带声调拼音，也可按要求调整。
+讲解语言默认是英语；用户要求或明显偏好德语时改用德语。中文默认采用普通话和简体字，也可按要求调整。

@@ -55,6 +55,8 @@ Use semantic headings and readable vertical sections rather than forcing tables.
 - the teaching content appropriate to the task;
 - practice or next step when useful.
 
+Unless the learner explicitly opts out, include tone-marked pinyin for every corrected sentence, model sentence, Chinese example, quiz prompt, and answer explanation. At `normal` or above, include the Chinese-order chunk breakdown and literal gloss required by the teaching playbook in the archived lesson as well as the conversational response.
+
 For corrected work, visually distinguish original, minimally corrected, and natural/model alternatives. Do not rely on color alone; label every section in text. Keep line wrapping comfortable, contrast high, and print output clean. Include `@media print` rules and avoid fixed-height containers that can clip text.
 
 Escape source text before inserting it into HTML. Preserve intentional paragraph and section breaks. If text extraction from PDF, image, audio, or another source is incomplete, mark the uncertainty in the archive instead of silently guessing.

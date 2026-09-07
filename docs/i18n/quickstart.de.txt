@@ -6,6 +6,8 @@ $chinese-self-study-tutor <deine Aufgabe>
 Flexible Tiefe wählen:
 quickest | simple | normal | detailed | full
 
+Pinyin mit Tonzeichen wird auf jeder Stufe mitgeliefert, sofern du es nicht ausdrücklich abwählst. Der Tutor schätzt dein aktuelles Chinesisch zunächst bewusst vorsichtig ein.
+
 Beispiele:
 $chinese-self-study-tutor normal: Korrigiere dieses Tagebuch und erkläre die wichtigsten Fehler.
 $chinese-self-study-tutor detailed: Erkläre 了 auf Deutsch mit Pinyin und Beispielen.
@@ -15,3 +17,4 @@ $chinese-self-study-tutor Übe mit mir per Sprachfunktion ein Gespräch im Café
 Englisch ist die Standardsprache; Deutsch kann jederzeit verlangt werden.
 Arbeit ab normal wird als HTML unter ./archive/ gespeichert.
 Die ursprünglichen Eingabedateien bleiben unverändert.
+Korrekturen auf normal enthalten Chinesisch, Pinyin, eine Zerlegung in chinesischer Wortfolge, wörtliche und natürliche Übersetzungen, gezielte Hinweise und eine Übung.

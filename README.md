@@ -2,6 +2,8 @@
 
 An adaptive Codex Skill for English- or German-speaking beginners learning Standard Mandarin. It can correct homework, produce model texts, explain grammar and vocabulary, build Hanzi lessons, run quizzes, summarize recurring problems, and lead voice practice.
 
+Other languages: [简体中文 README](docs/i18n/README.zh-CN.md) · [中文快速开始](docs/i18n/quickstart.zh-CN.txt) · [Deutsche README](docs/i18n/README.de.md) · [Deutscher Schnellstart](docs/i18n/quickstart.de.txt)
+
 ## Install and invoke
 
 This source package is mirrored to `C:\Users\liangjiayin\.codex\skills\chinese-self-study-tutor`. Codex may select it automatically for Mandarin-learning requests, or you can invoke it explicitly with `$chinese-self-study-tutor`.
@@ -16,6 +18,17 @@ Examples:
 ## Response depth
 
 Choose `quickest`, `simple`, `normal`, `detailed`, or `full`, or let the tutor decide. These are flexible depth preferences rather than strict templates. `normal` and above are automatically archived; input files and requested file outputs default to at least `normal`.
+
+Tone-marked pinyin accompanies the Chinese taught at every depth unless you explicitly ask for no pinyin. The tutor estimates proficiency conservatively and teaches to the lower plausible level until repeated evidence or an explicit request supports moving higher.
+
+At `normal`, composition and correction work includes a sentence-by-sentence learning view: corrected Chinese, aligned pinyin, a Chinese-order chunk breakdown and literal gloss, a natural translation, focused notes, and short practice. For example:
+
+```text
+我 / 这两天 / 都 / 居家办公
+Wǒ / zhè liǎng tiān / dōu / jūjiā bàngōng
+I / these two days / all / work from home
+Natural English: I have been working from home these past two days.
+```
 
 ## Archives
 
